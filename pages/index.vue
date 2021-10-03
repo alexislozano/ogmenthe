@@ -20,7 +20,7 @@
             </div>
             <div class="banner">
                 <h2>Un vent de <span>fraîcheur</span> sur vos formations !</h2>
-                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</h3>
+                <h3>Augmenter l'efficacité des sessions des formateurs en les rendant plus sexy par la gamification.</h3>
             </div>
         </header>
         <main>
@@ -133,8 +133,7 @@
                 }
 
                 h3 {
-                    max-width: 800px;
-                    margin-bottom: $xxlSize;
+                    max-width: 600px;
                 }
             }
         }

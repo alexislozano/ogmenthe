@@ -19,13 +19,14 @@ a {
 h2 {
     font-weight: 700;
     font-size: $xlFontSize;
-    margin: $xxlSize 0;
+    margin-top: $xxlSize;
+    margin-bottom: $xlSize;
 }
 
 h3 {
     font-weight: inherit;
     font-size: $mFontSize;
-    margin: $xlSize 0;
+    margin-bottom: $xlSize;
 }
 
 h4 {

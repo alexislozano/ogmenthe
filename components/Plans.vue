@@ -38,9 +38,9 @@
                     price: 1999,
                     unit: "€/an",
                     features: [
-                        "Lorem ipsum",
-                        "Lorem ipsum",
-                        "Lorem ipsum"
+                        "Scénario personnalisé",
+                        "2 scénarios par mois",
+                        "Accès aux serious games"
                     ],
                     button: "Je m'abonne 💸"
                 }, {
@@ -48,11 +48,10 @@
                     price: 3999,
                     unit: "€/an",
                     features: [
-                        "Lorem ipsum",
-                        "Lorem ipsum",
-                        "Lorem ipsum",
-                        "Lorem ipsum",
-                        "Lorem ipsum"
+                        "Scénario personnalisé",
+                        "5 scénarios par mois",
+                        "Accès à tous les jeux",
+                        "Accès au dashboard"
                     ],
                     button: "Je m'abonne 💸"
                 }, {

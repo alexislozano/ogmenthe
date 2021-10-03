@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: $backgroundColor;
     margin: 0;
@@ -12,37 +16,41 @@ a {
     text-decoration: none;
 }
 
-h1 {
-    font-size: $mFontSize;
-}
-
 h2 {
     font-weight: 700;
-    font-size: $lFontSize;
+    font-size: $xlFontSize;
+    margin: $xxlSize 0;
 }
 
 h3 {
     font-weight: inherit;
     font-size: $mFontSize;
+    margin: $xlSize 0;
+}
+
+h4 {
+    font-size: $lFontSize;
+    margin: $lSize 0;
 }
 
 input {
     font-size: inherit;
-    padding: $mSize $lSize;
-    border-width: 2px;
-    border-style: solid;
+    padding: 0 $xlSize;
+    border: 1px solid white;
+    background-color: transparent;
     outline: none;
+    color: white;
 }
 
-input[type=email] {
-    background-color: $inputColor;
-    border-color: $inputColor;
-    color: inherit;
-}
+button, input[type=submit] {
+    $height: 50px;
 
-input[type=submit] {
-    background-color: $greenColor;
-    border-color: $greenColor;
-    color: $backgroundColor;
+    height: $height;
+    padding: 0 $xlSize;
+    border: 1px solid white;
+    border-radius: $height;
+    font-size: $sFontSize;
+    background-color: white;
     cursor: pointer;
+    color: $backgroundColor;
 }

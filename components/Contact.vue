@@ -2,7 +2,7 @@
     <form @submit.prevent="addContact()">
         <div class="field">
             <input type="email" v-model="email">
-            <input type="submit" value="Email">
+            <input type="submit" value="Je m'abonne">
         </div>
         <p v-if="error !== null" :class="{ error }">{{ message }}</p>
     </form>
@@ -62,17 +62,21 @@
 
 <style lang="scss" scoped>
     form {
+        margin: $xlSize 0;
+
         .field {
             display: flex;
             margin: 0;
             margin-bottom: $xlSize;
 
+            $height: 50px;
+
             input[type=email] {
-                border-radius: $mSize 0 0 $mSize;
+                border-radius: $height 0 0 $height;
             }
 
             input[type=submit] {
-                border-radius: 0 $mSize $mSize 0;
+                border-radius: 0 $height $height 0;
             }
 
             img {
@@ -83,15 +87,14 @@
         }
 
         p {
-            font-size: $sSize;
+            font-size: $sFontSize;
             border: 1px solid $greenColor;
             border-radius: $mSize;
-            background-color: rgba($greenColor, 0.25);
             padding: $mSize $lSize;
+            background-color: rgba($backgroundColor, 0.5);
 
             &.error {
                 border-color: $purpleColor;
-                background-color: rgba($purpleColor, 0.25);
             }
         }
     }

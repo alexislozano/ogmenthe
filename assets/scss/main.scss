@@ -1,4 +1,48 @@
 body {
-    background-color: #592941;
+    background-color: $backgroundColor;
     margin: 0;
+    color: $fontColor;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: $mFontSize;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: $mFontSize;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: $lFontSize;
+}
+
+h3 {
+    font-weight: inherit;
+    font-size: $mFontSize;
+}
+
+input {
+    font-size: inherit;
+    padding: $mSize $lSize;
+    border-width: 2px;
+    border-style: solid;
+    outline: none;
+}
+
+input[type=email] {
+    background-color: $inputColor;
+    border-color: $inputColor;
+    color: inherit;
+}
+
+input[type=submit] {
+    background-color: $greenColor;
+    border-color: $greenColor;
+    color: $backgroundColor;
+    cursor: pointer;
 }

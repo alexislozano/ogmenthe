@@ -1,6 +1,6 @@
 <template>
     <div class="index">
-        <div class="event">🎉 Participez à notre évènement sur <a href="#">Eventbrite</a> 🎉</div>
+        <div class="event">🎉 Participez à notre évènement sur <a href="https://www.eventbrite.fr/preview?eid=184208892757/">Eventbrite</a> 🎉</div>
         <video autoplay muted loop id="banner" poster="@/assets/banner/img.jpg">
             <source src="@/assets/banner/video.mp4" type="video/mp4">
         </video>
